@@ -1,6 +1,6 @@
 # Fold Counter
 
-Counts how many times a foldable phone (built for the Samsung Galaxy Z Fold series) has been **unfolded**, with home-screen widgets styled like an unlock counter. The widget header shows your phone's own model name, for example "FOLD8 ULTRA UNFOLDS".
+Counts how many times your foldable phone has been **unfolded**, with home-screen widgets styled like an unlock counter. It works on any Android foldable that reports its hinge angle (tested design: Samsung Galaxy Z Fold). The widget header shows your phone's own model name, for example "FOLD8 ULTRA UNFOLDS".
 
 - Dark and light widgets, in 2x2 (today and vs yesterday) and 4x2 (all time, this week, Mon-Sun bars).
 - App screen with a dark/light toggle and a stats list.
@@ -8,7 +8,7 @@ Counts how many times a foldable phone (built for the Samsung Galaxy Z Fold seri
 
 ## Screenshots
 
-Sample data, shown for a Galaxy Z Fold 8 Ultra.
+Sample data, shown as a Galaxy Z Fold 8 Ultra would display it.
 
 | App (dark) | App (light) |
 | :---: | :---: |
