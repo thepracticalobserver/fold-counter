@@ -163,8 +163,15 @@ public class MainActivity extends Activity {
             Button t = new Button(c);
             t.setAllCaps(false);
             t.setText("Test: +1 unfold");
+            t.setTextSize(15);
+            t.setTextColor(dim());
+            t.setStateListAnimator(null);
+            t.setBackground(round(card(), stroke(), 26));
             t.setOnClickListener(v -> { FoldStore.record(this, false); build(); });
-            col.addView(t);
+            LinearLayout.LayoutParams tl = new LinearLayout.LayoutParams(
+                    LinearLayout.LayoutParams.MATCH_PARENT, dp(52));
+            tl.topMargin = dp(16);
+            col.addView(t, tl);
         }
 
         if (root == null) root = new ScrollView(c);

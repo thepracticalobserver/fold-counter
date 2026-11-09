@@ -6,6 +6,19 @@ Counts how many times a foldable phone (built for the Samsung Galaxy Z Fold seri
 - App screen with a dark/light toggle and a stats list.
 - Everything stays on the phone: no internet permission.
 
+## Screenshots
+
+Sample data, shown for a Galaxy Z Fold 8 Ultra.
+
+| App (dark) | App (light) |
+| :---: | :---: |
+| <img src="docs/app-dark.png" width="300" /> | <img src="docs/app-light.png" width="300" /> |
+
+| 2x2 widget | 4x2 widget |
+| :---: | :---: |
+| <img src="docs/widget-small_dark.png" width="220" /> | <img src="docs/widget-wide_dark.png" width="440" /> |
+| <img src="docs/widget-small_light.png" width="220" /> | <img src="docs/widget-wide_light.png" width="440" /> |
+
 ## How it counts
 
 A foreground service listens to the hinge-angle sensor (`Sensor.TYPE_HINGE_ANGLE`).
